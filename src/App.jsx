@@ -55,6 +55,9 @@ function App() {
           </p>
 
 
+          {/* =========================
+              HERO BUTTONS
+          ========================= */}
           <div className="hero-buttons">
 
             <a
@@ -65,18 +68,34 @@ function App() {
             </a>
 
             <a
-              href="#contact"
+              href="/Sajina-paudel-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="secondary-button"
             >
-              Contact Me
+              View Resume
             </a>
 
           </div>
 
 
+          {/* =========================
+              RESUME DOWNLOAD
+          ========================= */}
+          <a
+            href="/Sajina-paudel-resume.pdf"
+            download="Sajina-paudel-resume.pdf"
+            className="resume-download"
+          >
+            ↓ Download Resume
+          </a>
+
+
+          {/* =========================
+              SOCIAL LINKS
+          ========================= */}
           <div className="social-links">
 
-            {/* Add your real GitHub URL here later */}
             <a
               href="#"
               target="_blank"
@@ -85,7 +104,6 @@ function App() {
               GitHub ↗
             </a>
 
-            {/* Add your real LinkedIn URL here later */}
             <a
               href="#"
               target="_blank"
@@ -192,9 +210,7 @@ function App() {
 
             <div className="timeline">
 
-
               {/* Kathmandu University */}
-
               <div className="timeline-item">
 
                 <div className="timeline-dot"></div>
@@ -225,7 +241,6 @@ function App() {
 
 
               {/* +2 */}
-
               <div className="timeline-item">
 
                 <div className="timeline-dot"></div>
@@ -255,7 +270,6 @@ function App() {
 
 
               {/* SEE */}
-
               <div className="timeline-item">
 
                 <div className="timeline-dot"></div>
@@ -316,11 +330,7 @@ function App() {
 
         <div className="projects">
 
-
-          {/* =========================
-              PROJECT 1
-          ========================= */}
-
+          {/* PROJECT 1 */}
           <div className="project-card">
 
             <div className="project-number">
@@ -360,10 +370,7 @@ function App() {
           </div>
 
 
-          {/* =========================
-              PROJECT 2
-          ========================= */}
-
+          {/* PROJECT 2 */}
           <div className="project-card">
 
             <div className="project-number">
@@ -403,10 +410,7 @@ function App() {
           </div>
 
 
-          {/* =========================
-              PROJECT 3
-          ========================= */}
-
+          {/* PROJECT 3 */}
           <div className="project-card">
 
             <div className="project-number">
@@ -445,7 +449,6 @@ function App() {
 
           </div>
 
-
         </div>
 
       </section>
@@ -475,9 +478,7 @@ function App() {
 
         <div className="skill-groups">
 
-
           {/* Programming */}
-
           <div className="skill-group">
 
             <h3>
@@ -496,7 +497,6 @@ function App() {
 
 
           {/* Data */}
-
           <div className="skill-group">
 
             <h3>
@@ -515,7 +515,6 @@ function App() {
 
 
           {/* Health Informatics */}
-
           <div className="skill-group">
 
             <h3>
@@ -534,7 +533,6 @@ function App() {
 
 
           {/* Other */}
-
           <div className="skill-group">
 
             <h3>
@@ -548,7 +546,6 @@ function App() {
             </div>
 
           </div>
-
 
         </div>
 
@@ -627,7 +624,7 @@ function App() {
       </footer>
 
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
