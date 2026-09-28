@@ -21,7 +21,6 @@ function App() {
 
       </nav>
 
-
       {/* =========================
           HERO SECTION
       ========================= */}
@@ -54,10 +53,7 @@ function App() {
             healthcare information more accessible and useful.
           </p>
 
-
-          {/* =========================
-              HERO BUTTONS
-          ========================= */}
+          {/* HERO BUTTONS */}
           <div className="hero-buttons">
 
             <a
@@ -78,10 +74,7 @@ function App() {
 
           </div>
 
-
-          {/* =========================
-              RESUME DOWNLOAD
-          ========================= */}
+          {/* RESUME DOWNLOAD */}
           <a
             href="/Sajina-paudel-resume.pdf"
             download="Sajina-paudel-resume.pdf"
@@ -90,24 +83,21 @@ function App() {
             ↓ Download Resume
           </a>
 
-
-          {/* =========================
-              SOCIAL LINKS
-          ========================= */}
+          {/* SOCIAL LINKS */}
           <div className="social-links">
 
             <a
-              href="#"
+              href="https://github.com/Sajina219"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               GitHub ↗
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sajina-paudel-350882292/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               LinkedIn ↗
             </a>
@@ -117,7 +107,6 @@ function App() {
         </div>
 
       </section>
-
 
       {/* =========================
           ABOUT SECTION
@@ -141,7 +130,6 @@ function App() {
 
         </div>
 
-
         <div className="about-content">
 
           <p>
@@ -162,7 +150,6 @@ function App() {
             developing my technical and analytical skills while
             contributing to meaningful health technology solutions.
           </p>
-
 
           <div className="about-highlights">
 
@@ -186,7 +173,6 @@ function App() {
         </div>
 
       </section>
-
 
       {/* =========================
           EDUCATION SECTION
@@ -239,7 +225,6 @@ function App() {
 
               </div>
 
-
               {/* +2 */}
               <div className="timeline-item">
 
@@ -267,7 +252,6 @@ function App() {
                 </div>
 
               </div>
-
 
               {/* SEE */}
               <div className="timeline-item">
@@ -305,7 +289,6 @@ function App() {
 
       </section>
 
-
       {/* =========================
           PROJECTS SECTION
       ========================= */}
@@ -327,11 +310,10 @@ function App() {
           healthcare technology, digital health, and data.
         </p>
 
+       <div className="projects">
 
-        <div className="projects">
-
-          {/* PROJECT 1 */}
-          <div className="project-card">
+  {/* PROJECT 1 */}
+  <div className="project-card">
 
             <div className="project-number">
               01
@@ -368,7 +350,6 @@ function App() {
             </div>
 
           </div>
-
 
           {/* PROJECT 2 */}
           <div className="project-card">
@@ -408,7 +389,6 @@ function App() {
             </div>
 
           </div>
-
 
           {/* PROJECT 3 */}
           <div className="project-card">
@@ -453,7 +433,6 @@ function App() {
 
       </section>
 
-
       {/* =========================
           SKILLS SECTION
       ========================= */}
@@ -462,95 +441,84 @@ function App() {
         className="section skills-section"
       >
 
-        <p className="section-label">
-          WHAT I USE
-        </p>
+        <><p className="section-label">
+            WHAT I USE
+          </p><h2>
+              Skills & Technologies
+            </h2><p className="skills-intro">
+              Technologies and tools I have been learning and using
+              through my studies and projects.
+            </p><div className="skill-groups">
 
-        <h2>
-          Skills & Technologies
-        </h2>
+              {/* Programming */}
+              <div className="skill-group">
 
-        <p className="skills-intro">
-          Technologies and tools I have been learning and using
-          through my studies and projects.
-        </p>
+                <h3>
+                  Programming & Development
+                </h3>
 
+                <div className="skills">
 
-        <div className="skill-groups">
+                  <span>Python</span>
+                  <span>Django</span>
+                  <span>React</span>
 
-          {/* Programming */}
-          <div className="skill-group">
+                </div>
 
-            <h3>
-              Programming & Development
-            </h3>
+              </div>
 
-            <div className="skills">
+              {/* Data */}
+              <div className="skill-group">
 
-              <span>Python</span>
-              <span>Django</span>
-              <span>React</span>
+                <h3>
+                  Data & Databases
+                </h3>
 
-            </div>
+                <div className="skills">
 
-          </div>
+                  <span>SQL</span>
+                  <span>MongoDB</span>
+                  <span>Microsoft Excel</span>
 
+                </div>
 
-          {/* Data */}
-          <div className="skill-group">
+              </div>
 
-            <h3>
-              Data & Databases
-            </h3>
+              {/* Health Informatics */}
+              <div className="skill-group">
 
-            <div className="skills">
+                <h3>
+                  Health Informatics
+                </h3>
 
-              <span>SQL</span>
-              <span>MongoDB</span>
-              <span>Microsoft Excel</span>
+                <div className="skills">
 
-            </div>
+                  <span>Health Informatics</span>
+                  <span>HL7 FHIR</span>
+                  <span>Digital Health</span>
 
-          </div>
+                </div>
 
+              </div>
 
-          {/* Health Informatics */}
-          <div className="skill-group">
+              {/* Other */}
+              <div className="skill-group">
 
-            <h3>
-              Health Informatics
-            </h3>
+                <h3>
+                  Other Tools
+                </h3>
 
-            <div className="skills">
+                <div className="skills">
 
-              <span>Health Informatics</span>
-              <span>HL7 FHIR</span>
-              <span>Digital Health</span>
+                  <span>QGIS · Basic</span>
 
-            </div>
+                </div>
 
-          </div>
+              </div>
 
-
-          {/* Other */}
-          <div className="skill-group">
-
-            <h3>
-              Other Tools
-            </h3>
-
-            <div className="skills">
-
-              <span>QGIS · Basic</span>
-
-            </div>
-
-          </div>
-
-        </div>
+            </div></>
 
       </section>
-
 
       {/* =========================
           CONTACT SECTION
@@ -560,66 +528,52 @@ function App() {
         className="section contact"
       >
 
-        <p className="section-label">
-          CONTACT
-        </p>
+        <><p className="section-label">
+            CONTACT
+          </p><h2>
+              Let's connect.
+            </h2><p>
+              Interested in healthcare technology, digital health,
+              and building meaningful solutions.
+            </p><div className="contact-details">
 
-        <h2>
-          Let's connect.
-        </h2>
+              <a href="mailto:sajinapaudel79@gmail.com">
+                ✉ sajinapaudel79@gmail.com
+              </a>
 
-        <p>
-          Interested in healthcare technology, digital health,
-          and building meaningful solutions.
-        </p>
+              <a href="tel:+9779746289467">
+                ☎ +977 9746289467
+              </a>
 
+            </div><div className="contact-buttons">
 
-        <div className="contact-details">
+              <a
+                href="mailto:sajinapaudel79@gmail.com"
+                className="primary-button"
+              >
+                Email Me
+              </a>
 
-          <a href="mailto:sajinapaudel79@gmail.com">
-            ✉ sajinapaudel79@gmail.com
-          </a>
+              <a
+                href="#home"
+                className="secondary-button"
+              >
+                Back to Top ↑
+              </a>
 
-          <a href="tel:+9779746289467">
-            ☎ +977 9746289467
-          </a>
-
-        </div>
-
-
-        <div className="contact-buttons">
-
-          <a
-            href="mailto:sajinapaudel79@gmail.com"
-            className="primary-button"
-          >
-            Email Me
-          </a>
-
-          <a
-            href="#home"
-            className="secondary-button"
-          >
-            Back to Top ↑
-          </a>
-
-        </div>
-
+            </div></>
       </section>
-
 
       {/* =========================
           FOOTER
       ========================= */}
       <footer>
 
-        <p>
+        <><p>
           © 2026 Sajina Paudel
-        </p>
-
-        <p>
-          Health Informatics · Healthcare Technology · Digital Health
-        </p>
+        </p><p>
+            Health Informatics · Healthcare Technology · Digital Health
+          </p></>
 
       </footer>
 
@@ -627,4 +581,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;        
