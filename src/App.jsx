@@ -527,6 +527,88 @@ function App() {
         id="contact"
         className="section contact"
       >
+        {/* CONTACT FORM */}
+<div className="contact-form-header">
+  <h3>Get in Touch</h3>
+  <p>
+    I'm a Health Informatics student interested in digital health,
+    healthcare technology, internships, research opportunities,
+    and collaborations. Feel free to send me a message.
+  </p>
+</div>
+
+<form className="contact-form">
+
+  <div className="form-row">
+
+    <div className="form-group">
+      <label htmlFor="name">Full Name</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="email">Email Address</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter your email address"
+        required
+      />
+    </div>
+
+  </div>
+
+  <div className="form-row">
+
+    <div className="form-group">
+      <label htmlFor="organization">Organization / Company</label>
+      <input
+        id="organization"
+        type="text"
+        name="organization"
+        placeholder="University, Hospital, Company, etc."
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="subject">Subject</label>
+      <input
+        id="subject"
+        type="text"
+        name="subject"
+        placeholder="Internship, Collaboration, Project..."
+        required
+      />
+    </div>
+
+  </div>
+
+  <div className="form-group">
+    <label htmlFor="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="6"
+      placeholder="Tell me about your project, opportunity, or message..."
+      required
+    ></textarea>
+  </div>
+
+  <button
+    type="submit"
+    className="primary-button"
+  >
+    Send Message
+  </button>
+
+</form>
 
         <><p className="section-label">
             CONTACT
